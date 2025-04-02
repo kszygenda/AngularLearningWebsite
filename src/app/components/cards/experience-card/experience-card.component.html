@@ -1,0 +1,19 @@
+<mat-card class="example-card">
+  <mat-card-title class="example-card__title"><span>Experience</span></mat-card-title>
+  <mat-card-content class="example-card__description">
+    <div class="flex-container">
+      <span>Volskwagen Poznan, Bialezyce</span>
+      <span>08/2024 - 03/2024</span>
+    </div>
+    <div>
+      <mat-list>
+        <a mat-list-item *ngFor="let point of experiencePoints" class="wrap-text">
+          <mat-icon matListItemIcon class="list-icon">circle</mat-icon> <!-- Custom bullet -->
+          <span>{{ point }}</span>
+        </a>
+      </mat-list>
+    </div>
+  </mat-card-content>
+</mat-card>
+
+

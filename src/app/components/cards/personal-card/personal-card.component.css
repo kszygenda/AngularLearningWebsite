@@ -1,0 +1,35 @@
+.example-card {
+  margin-top: 5vh;
+  margin-left: 2vw;
+  max-width: 40vw;
+  background: #07004c;
+  font-weight: bolder;
+  font-family: SansSerif, sans-serif;
+}
+
+.profile-image {
+  background-image: url('https://media.licdn.com/dms/image/v2/D4D03AQHAiifzpLTQZg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1718252097330?e=2147483647&v=beta&t=Nx6joBqX8HnSC6Hb0UaD-bPwu8HhIt7jwhijD1HTbQg');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+
+.example-card__title {
+  font-weight: bolder;
+  font-size: 16px;
+  color: #647bff;
+}
+
+.example-card__description {
+  font-weight: bold;
+  font-size: 15px;
+  color: #647bff;
+}
+
+.example-card__subtitle {
+  font-weight: normal;
+  font-size: 14px;
+  color: #647bff;
+}

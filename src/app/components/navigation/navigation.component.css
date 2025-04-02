@@ -1,0 +1,62 @@
+.sidenav-container {
+  height: 100vh;
+  margin: 0;
+  padding: 0 !important;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(135deg, #090a1a, #020035);
+}
+
+.sidenav {
+  width: 200px;
+  background: linear-gradient(180deg, #090a1a, #020035);
+  border-right: none;
+  box-shadow: 3px 0 6px rgba(0,0,0,0.1);
+  margin-top: 0;
+  top: 0;
+}
+
+.sidenav .mat-toolbar {
+  background: #020035;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  margin: 0;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+span {
+  font-weight: bolder;
+  font-size: 16px;
+  color: #647bff; /* Dark text */
+}
+
+a.mat-list-item .white-icon {
+  color: white !important;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #020035;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/*https://stackoverflow.com/questions/47274184/set-footer-on-bottom-adapted-to-content-with-angular-4-and-bootstrap-4 */
+.footer {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+}
+
+
+
+
