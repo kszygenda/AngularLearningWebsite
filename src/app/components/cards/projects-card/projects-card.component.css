@@ -48,3 +48,10 @@ mat-icon[matListItemIcon] {
   word-break: break-word;
   align-items: flex-start;
 }
+
+.card-img {
+  width: 100%; /* rozciąga obraz na całą dostępną szerokość */
+  height: 200px; /* ustalona wysokość */
+  object-fit: cover; /* przycina obraz aby wypełnić kontener */
+  padding: 20px;
+}
