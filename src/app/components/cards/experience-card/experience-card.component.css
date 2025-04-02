@@ -16,9 +16,10 @@
 .example-card__title {
   font-weight: bolder;
   font-size: 19px;
-  color: #647bff;
   text-align: center;
   padding: 16px;
+  letter-spacing: 1px;
+  color: #d2d5ed;
 }
 
 .example-card__description {

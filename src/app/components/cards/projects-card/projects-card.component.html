@@ -2,10 +2,23 @@
   <mat-card-title class="example-card__title"><span>Projects</span></mat-card-title>
   <mat-card-content class="example-card__description">
     <div class="flex-container">
-      <button mat-mini-fab aria-label="Close Menu">
+      <button mat-mini-fab aria-label="Close Menu" (click)="goDownSelected()" class="menu-button">
         <mat-icon>arrow_back_ios</mat-icon>
       </button>
-      <button mat-mini-fab aria-label="Close Menu">
+      <mat-card>
+        <mat-card-title class="project-card__title">{{selected_card.title}}</mat-card-title>
+        <img mat-card-image [src]="selected_card.photo" [alt]="selected_card.title"
+             class="card-img">
+        <mat-card-content>
+          <div>
+            {{selected_card.description}}
+          </div>
+          <div>
+            <span *ngFor="let lang of selected_card.languages">{{lang}}</span>
+          </div>
+        </mat-card-content>
+      </mat-card>
+      <button mat-mini-fab aria-label="Close Menu" (click)="goUpSelected()" class="menu-button">
         <mat-icon>arrow_forward_ios</mat-icon>
       </button>
     </div>

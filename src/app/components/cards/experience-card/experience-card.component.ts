@@ -1,10 +1,7 @@
 import { Component } from '@angular/core';
 import {
     MatCard,
-    MatCardAvatar,
     MatCardContent,
-    MatCardHeader,
-    MatCardSubtitle,
     MatCardTitle,
 } from "@angular/material/card";
 import {MatList, MatListItem} from '@angular/material/list';
@@ -15,10 +12,7 @@ import {NgForOf} from '@angular/common';
   selector: 'app-experience-card',
   imports: [
     MatCard,
-    MatCardAvatar,
     MatCardContent,
-    MatCardHeader,
-    MatCardSubtitle,
     MatCardTitle,
     MatList,
     MatListItem,
